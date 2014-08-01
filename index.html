@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Allgray.js demo</title>
+    <link rel="stylesheet" href="css/allgray.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/allgray.js"></script>
+
+    <style>
+      .red {
+        color: red;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .blue {
+        color: blue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>
+      Allgray.js demo
+    </h1>
+    <button id="toggle">Allgray Toggle</button><br>
+    <hr>
+    <a href="#">This is a dummy link</a><br><br>
+    <img src="img/rainbow.jpg" alt="rainbow">
+    <p class="red">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut nunc ut magna tristique rhoncus. Curabitur at lacus ac quam pretium scelerisque. Curabitur ac leo id elit consectetur molestie. Nam viverra feugiat neque vitae bibendum. Cras et quam sed elit gravida laoreet dictum eget augue.
+    </p>
+    <p class="blue">
+Integer in dignissim lorem, vel facilisis metus. Sed id cursus quam, ac mattis dolor. Duis vulputate fermentum est, quis laoreet felis laoreet sit amet. Vivamus mattis orci nulla, eu malesuada libero pharetra quis. Aenean in nulla ligula. Phasellus libero risus, sollicitudin quis lorem id, imperdiet auctor est. Curabitur cursus purus enim. Pellentesque semper quam eu metus tincidunt commodo.
+    </p>
+    <p class="green">
+Duis scelerisque adipiscing libero sit amet mattis. Maecenas lobortis odio eget nunc consectetur, sit amet dapibus nisi porttitor. Sed fringilla eleifend sapien, ut lacinia orci scelerisque ac. Curabitur eget enim eget nibh auctor tempus. Suspendisse molestie tincidunt iaculis. Ut tristique hendrerit enim, a ultrices tortor iaculis in. Etiam sit amet nulla dolor. Donec eu dolor augue. Proin molestie urna eros. Quisque neque augue, viverra sit amet risus ut, ornare tempus nibh. Maecenas blandit volutpat lacinia. Mauris a feugiat nisl. Phasellus a velit commodo, porttitor risus et, ultricies elit.
+    </p>
+    <script>
+      $(function() {
+        $('#toggle').click(function() {
+          $('*').Allgray();
+        });
+        $('*').Allgray();
+      });
+    </script>
+  </body>
+</html>
