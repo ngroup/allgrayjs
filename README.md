@@ -11,6 +11,12 @@ Include jQuery and the plugin on your page.
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="allgray.js"></script>
 ```
+and the CSS stylesheet
+
+```html
+<link rel="stylesheet" href="css/allgray.css">
+```
+
 
 Decolorize the element by using jQuery selector and calling the `Allgray()` method.
 
