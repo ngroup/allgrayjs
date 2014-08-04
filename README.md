@@ -1,7 +1,8 @@
-Allgray.js
-==========
+![Allgray.js](https://raw.githubusercontent.com/ngroup/allgrayjs/master/img/allgray_header.jpg)
+=============
 
 A tiny jQuery plugin for decolorizing elements
+
 
 ## Usage
 
