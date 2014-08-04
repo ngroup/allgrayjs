@@ -36,11 +36,3 @@ $('*').Allgray();
 ```
 
 Call the `Allgray()` method again to turn the element back to the original color.
-
-
-This jQuery plugin is inspired by this article:
-
-[問卦] 請問如何把網站首頁變成黑白？
-(http://www.ptt.cc/bbs/Gossiping/M.1406901122.A.FC4.html)
-
-天佑台灣！
